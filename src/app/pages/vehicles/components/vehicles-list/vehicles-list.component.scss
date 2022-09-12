@@ -1,0 +1,49 @@
+@import "../../../../../assets/style/variables";
+
+.container-table{
+  padding: 1rem 2rem;
+
+  .table-vehicles {
+    width: 100%;
+
+    th.mat-header-cell {
+      text-align: left;
+    }
+  }
+
+  .mat-table{
+    border-radius: 0.6rem;
+    overflow:hidden !important;
+  }
+
+  table  tr:nth-child(2n+2) {
+    background:$gray;
+  }
+
+}
+
+.search-content{
+  position: relative;
+  display: flex;
+  padding-bottom: 2rem;
+
+  .search-input{
+    width: 14rem;
+    height: 2.7rem;
+    padding: 0 0.5rem 0 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+
+  .search-icon{
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    position: absolute;
+    top: 0.6rem;
+    left: 0.7rem;
+  }
+}
+
+
+
