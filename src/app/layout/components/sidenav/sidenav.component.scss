@@ -1,0 +1,29 @@
+@import "../../../../assets/style/variables";
+
+.sidenav{
+  background-color: $primary;
+  width: 6rem;
+  height: 100%;
+  position: fixed;
+
+  .content_sidenav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 2rem;
+
+    .mat-icon:hover{
+      background-color: #c79500;
+      padding: 0 0.5rem;
+      border-radius: 0.3rem;
+    }
+
+    .mat-icon{
+      transform: scale(1.5);
+      color: $white;
+    }
+  }
+}
+
+
