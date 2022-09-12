@@ -11,3 +11,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: $background;
 }
+
+.mat-drawer-container {
+  background-color: unset;
+}
