@@ -1,27 +1,19 @@
-# WebVehiclesFrontend
+## Projeto: Crud de veículos com Angular + Node.JS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+- O intuito do projeto é criar uma API rest em Node.JS com CRUD de veículos com os seguintes atributos: id, placa, chassi, renavam, modelo, marca e ano. E no Frontend utilizar o Angular para criação de uma lista de veículos consumindo os dados da API.
 
-## Development server
+## Tecnologias utilizadas no Front:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 14
+- Typescript: Linguagem de programação.
+- Angular Material: Biblioteca de componentes de interface.
 
-## Code scaffolding
+## Como rodar a aplicação em sua máquina(localhost): 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Clone o projeto em sua máquina
+- Na IDE de sua preferência, abra a pasta onde fez o clone e no CMD rode o seguinte comando: npm install
+- Em seguida, no CMD inicie a aplicação com o comando: ng serve --o
+- Obs: Lembre de deixar a <a href="https://github.com/Rennan-sbarros/web_vehicles_backend">API</a> rodando em conjunto 
+### Aplicação Front pronta
+<img src="https://github.com/Rennan-sbarros/rennan-sbarros/blob/main/Diversos/home.png"/>
+<img src="https://github.com/Rennan-sbarros/rennan-sbarros/blob/main/Diversos/list.png"/>
